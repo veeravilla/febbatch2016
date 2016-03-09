@@ -11,7 +11,7 @@ public class ArrayListExmaple1 {
 	public static void main(String[] args) {
 		List<String> strList = new ArrayList<String>();
 		
-		strList.add("Rama"); // Index 0
+		strList.add("Rama123"); // Index 0
 		strList.add("Rama");
 		strList.add("Jhon");
 		strList.add("Steve");
