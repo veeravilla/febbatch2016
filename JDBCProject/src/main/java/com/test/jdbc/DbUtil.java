@@ -34,6 +34,7 @@ public class DbUtil {
 			datasource.setInitialSize(20);
 			
 		}catch(Exception ex){
+			ex.printStackTrace();
 			System.out.println("Failed to Load DB Properties !!!!");
 		}
 	}
