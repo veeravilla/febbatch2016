@@ -1,0 +1,1024 @@
+2016-03-24 19:41:43,313 INFO  [ContextLoader] - Root WebApplicationContext: initialization started
+2016-03-24 19:41:43,398 INFO  [XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Thu Mar 24 19:41:43 CDT 2016]; root of context hierarchy
+2016-03-24 19:41:43,544 INFO  [XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [serviceApplicationContext.xml]
+2016-03-24 19:41:43,563 DEBUG [DefaultDocumentLoader] - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-03-24 19:41:43,607 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+2016-03-24 19:41:43,608 DEBUG [PluggableSchemaResolver] - Loading schema mappings from [META-INF/spring.schemas]
+2016-03-24 19:41:43,622 DEBUG [PluggableSchemaResolver] - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://cxf.apache.org/schemas/configuration/http-conf.xsd=schemas/configuration/http-conf.xsd, http://cxf.apache.org/configuration/parameterized-types=schemas/configuration/parameterized-types.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.0.xsd=org/springframework/oxm/config/spring-oxm-3.0.xsd, http://cxf.apache.org/schemas/jaxrs.xsd=schemas/jaxrs.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://schemas.xmlsoap.org/ws/2004/08/addressing=schemas/wsdl/addressing.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://schemas.xmlsoap.org/wsdl/=schemas/wsdl/wsdl.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://schemas.xmlsoap.org/wsdl/http/=schemas/wsdl/http.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://cxf.apache.org/schemas/configuration/parameterized-types.xsd=schemas/configuration/parameterized-types.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://schemas.xmlsoap.org/wsdl/2003-02-11.xsd=schemas/wsdl/wsdl.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://cxf.apache.org/schemas/ws/addressing.xsd=schemas/ws-addr-conf.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://cxf.apache.org/schemas/wsdl/http-conf.xsd=schemas/wsdl/http-conf.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm.xsd=org/springframework/oxm/config/spring-oxm-4.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.2.xsd=org/springframework/oxm/config/spring-oxm-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://cxf.apache.org/schemas/configuration/cxf-beans.xsd=schemas/configuration/cxf-beans.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://cxf.apache.org/schemas/core.xsd=schemas/core.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://cxf.apache.org/schemas/configuration/security.xsd=schemas/configuration/security.xsd, http://www.springframework.org/schema/oxm/spring-oxm-4.0.xsd=org/springframework/oxm/config/spring-oxm-4.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://cxf.apache.org/schemas/configuration/soap.xsd=schemas/configuration/soap.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://cxf.apache.org/schemas/jaxws.xsd=schemas/jaxws.xsd, http://www.springframework.org/schema/oxm/spring-oxm-3.1.xsd=org/springframework/oxm/config/spring-oxm-3.1.xsd, http://cxf.apache.org/schemas/simple.xsd=schemas/simple.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+2016-03-24 19:41:43,626 DEBUG [PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2016-03-24 19:41:43,728 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context.xsd]
+2016-03-24 19:41:43,731 DEBUG [PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+2016-03-24 19:41:43,742 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd]
+2016-03-24 19:41:43,746 DEBUG [PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2016-03-24 19:41:43,761 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://cxf.apache.org/schemas/jaxrs.xsd]
+2016-03-24 19:41:43,763 DEBUG [PluggableSchemaResolver] - Found XML schema [http://cxf.apache.org/schemas/jaxrs.xsd] in classpath: schemas/jaxrs.xsd
+2016-03-24 19:41:43,771 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://cxf.apache.org/schemas/configuration/cxf-beans.xsd]
+2016-03-24 19:41:43,773 DEBUG [PluggableSchemaResolver] - Found XML schema [http://cxf.apache.org/schemas/configuration/cxf-beans.xsd] in classpath: schemas/configuration/cxf-beans.xsd
+2016-03-24 19:41:43,796 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://cxf.apache.org/schemas/jaxws.xsd]
+2016-03-24 19:41:43,798 DEBUG [PluggableSchemaResolver] - Found XML schema [http://cxf.apache.org/schemas/jaxws.xsd] in classpath: schemas/jaxws.xsd
+2016-03-24 19:41:43,829 DEBUG [DefaultBeanDefinitionDocumentReader] - Loading bean definitions
+2016-03-24 19:41:43,869 INFO  [XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2016-03-24 19:41:43,878 DEBUG [DefaultDocumentLoader] - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-03-24 19:41:43,881 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+2016-03-24 19:41:43,883 DEBUG [PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2016-03-24 19:41:43,918 DEBUG [DefaultBeanDefinitionDocumentReader] - Loading bean definitions
+2016-03-24 19:41:43,946 DEBUG [XmlBeanDefinitionReader] - Loaded 4 bean definitions from location pattern [classpath:META-INF/cxf/cxf.xml]
+2016-03-24 19:41:43,947 DEBUG [DefaultBeanDefinitionDocumentReader] - Imported 4 bean definitions from URL location [classpath:META-INF/cxf/cxf.xml]
+2016-03-24 19:41:43,950 INFO  [XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [jdbcContext.xml]
+2016-03-24 19:41:43,975 DEBUG [DefaultDocumentLoader] - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-03-24 19:41:43,985 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+2016-03-24 19:41:43,989 DEBUG [PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2016-03-24 19:41:44,079 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/context/spring-context.xsd]
+2016-03-24 19:41:44,086 DEBUG [PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.0.xsd
+2016-03-24 19:41:44,095 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd]
+2016-03-24 19:41:44,097 DEBUG [PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+2016-03-24 19:41:44,113 DEBUG [DefaultBeanDefinitionDocumentReader] - Loading bean definitions
+2016-03-24 19:41:44,123 DEBUG [DefaultNamespaceHandlerResolver] - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://cxf.apache.org/jaxws=org.apache.cxf.jaxws.spring.NamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/oxm=org.springframework.oxm.config.OxmNamespaceHandler, http://cxf.apache.org/transports/http/configuration=org.apache.cxf.transport.http.spring.NamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://cxf.apache.org/ws/addressing=org.apache.cxf.ws.addressing.spring.NamespaceHandler, http://cxf.apache.org/clustering=org.apache.cxf.clustering.spring.NamespaceHandler, http://cxf.apache.org/simple=org.apache.cxf.frontend.spring.NamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler, http://cxf.apache.org/core=org.apache.cxf.bus.spring.NamespaceHandler, http://cxf.apache.org/jaxrs=org.apache.cxf.jaxrs.spring.NamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://cxf.apache.org/bindings/soap=org.apache.cxf.binding.soap.spring.NamespaceHandler}
+2016-03-24 19:41:44,246 DEBUG [PathMatchingResourcePatternResolver] - Looking for matching resources in directory tree [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test]
+2016-03-24 19:41:44,247 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestServiceImpl/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,252 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestServiceImpl/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,261 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestServiceImpl/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,272 DEBUG [PathMatchingResourcePatternResolver] - Looking for matching resources in directory tree [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test]
+2016-03-24 19:41:44,273 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestService/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,274 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestService/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,285 DEBUG [PathMatchingResourcePatternResolver] - Looking for matching resources in directory tree [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test]
+2016-03-24 19:41:44,286 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestObjects/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,288 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\jaxb] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestObjects/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,292 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestObjects/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,303 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestObjects/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,312 DEBUG [PathMatchingResourcePatternResolver] - Resolved location pattern [classpath*:com/test/**/*.class] to resources [file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\DataException.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDAO.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDTO.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonRowMapper.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CreditService.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CustomRequestInterceptor.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\ExceptionHandler.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\IPDetailsService.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\PersonService.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\StudentService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditSOAPService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsSoapService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IPersonService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IStudentService.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\jaxb\XMLTest.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditAccount.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditRequest.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditResponse.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ErrorResponse.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ObjectFactory.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\package-info.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentRequest.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentResponse.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Address.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\ObjectFactory.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\package-info.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Person.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonRequest.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonResponse.class]]
+2016-03-24 19:41:44,313 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\DataException.class]
+2016-03-24 19:41:44,375 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\DataException.class]
+2016-03-24 19:41:44,376 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDAO.class]
+2016-03-24 19:41:44,397 DEBUG [ClassPathBeanDefinitionScanner] - Identified candidate component class: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDAO.class]
+2016-03-24 19:41:44,398 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDTO.class]
+2016-03-24 19:41:44,403 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDTO.class]
+2016-03-24 19:41:44,403 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonRowMapper.class]
+2016-03-24 19:41:44,414 DEBUG [ClassPathBeanDefinitionScanner] - Identified candidate component class: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonRowMapper.class]
+2016-03-24 19:41:44,415 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CreditService.class]
+2016-03-24 19:41:44,430 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CreditService.class]
+2016-03-24 19:41:44,430 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CustomRequestInterceptor.class]
+2016-03-24 19:41:44,439 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CustomRequestInterceptor.class]
+2016-03-24 19:41:44,440 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\ExceptionHandler.class]
+2016-03-24 19:41:44,464 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\ExceptionHandler.class]
+2016-03-24 19:41:44,465 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\IPDetailsService.class]
+2016-03-24 19:41:44,473 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\IPDetailsService.class]
+2016-03-24 19:41:44,474 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\PersonService.class]
+2016-03-24 19:41:44,479 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\PersonService.class]
+2016-03-24 19:41:44,479 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\StudentService.class]
+2016-03-24 19:41:44,489 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\StudentService.class]
+2016-03-24 19:41:44,490 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditService.class]
+2016-03-24 19:41:44,513 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditService.class]
+2016-03-24 19:41:44,513 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditSOAPService.class]
+2016-03-24 19:41:44,515 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditSOAPService.class]
+2016-03-24 19:41:44,517 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsService.class]
+2016-03-24 19:41:44,527 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsService.class]
+2016-03-24 19:41:44,528 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsSoapService.class]
+2016-03-24 19:41:44,530 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsSoapService.class]
+2016-03-24 19:41:44,530 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IPersonService.class]
+2016-03-24 19:41:44,541 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IPersonService.class]
+2016-03-24 19:41:44,541 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IStudentService.class]
+2016-03-24 19:41:44,543 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IStudentService.class]
+2016-03-24 19:41:44,544 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\jaxb\XMLTest.class]
+2016-03-24 19:41:44,560 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\jaxb\XMLTest.class]
+2016-03-24 19:41:44,561 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditAccount.class]
+2016-03-24 19:41:44,580 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditAccount.class]
+2016-03-24 19:41:44,581 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditRequest.class]
+2016-03-24 19:41:44,585 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditRequest.class]
+2016-03-24 19:41:44,585 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditResponse.class]
+2016-03-24 19:41:44,593 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditResponse.class]
+2016-03-24 19:41:44,593 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ErrorResponse.class]
+2016-03-24 19:41:44,603 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ErrorResponse.class]
+2016-03-24 19:41:44,603 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ObjectFactory.class]
+2016-03-24 19:41:44,616 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ObjectFactory.class]
+2016-03-24 19:41:44,616 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\package-info.class]
+2016-03-24 19:41:44,619 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\package-info.class]
+2016-03-24 19:41:44,619 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentRequest.class]
+2016-03-24 19:41:44,635 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentRequest.class]
+2016-03-24 19:41:44,636 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentResponse.class]
+2016-03-24 19:41:44,648 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentResponse.class]
+2016-03-24 19:41:44,648 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Address.class]
+2016-03-24 19:41:44,658 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Address.class]
+2016-03-24 19:41:44,658 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\ObjectFactory.class]
+2016-03-24 19:41:44,673 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\ObjectFactory.class]
+2016-03-24 19:41:44,673 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\package-info.class]
+2016-03-24 19:41:44,675 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\package-info.class]
+2016-03-24 19:41:44,675 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Person.class]
+2016-03-24 19:41:44,689 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Person.class]
+2016-03-24 19:41:44,690 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonRequest.class]
+2016-03-24 19:41:44,700 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonRequest.class]
+2016-03-24 19:41:44,700 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonResponse.class]
+2016-03-24 19:41:44,711 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonResponse.class]
+2016-03-24 19:41:44,760 DEBUG [XmlBeanDefinitionReader] - Loaded 9 bean definitions from location pattern [classpath:jdbcContext.xml]
+2016-03-24 19:41:44,761 DEBUG [DefaultBeanDefinitionDocumentReader] - Imported 9 bean definitions from URL location [classpath:jdbcContext.xml]
+2016-03-24 19:41:44,761 INFO  [XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [restClientApplicationContext.xml]
+2016-03-24 19:41:44,784 DEBUG [DefaultDocumentLoader] - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2016-03-24 19:41:44,791 TRACE [PluggableSchemaResolver] - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+2016-03-24 19:41:44,793 DEBUG [PluggableSchemaResolver] - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2016-03-24 19:41:44,817 DEBUG [DefaultBeanDefinitionDocumentReader] - Loading bean definitions
+2016-03-24 19:41:44,822 DEBUG [XmlBeanDefinitionReader] - Loaded 4 bean definitions from location pattern [classpath:restClientApplicationContext.xml]
+2016-03-24 19:41:44,824 DEBUG [DefaultBeanDefinitionDocumentReader] - Imported 4 bean definitions from URL location [classpath:restClientApplicationContext.xml]
+2016-03-24 19:41:44,828 DEBUG [PathMatchingResourcePatternResolver] - Looking for matching resources in directory tree [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test]
+2016-03-24 19:41:44,831 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestServiceImpl/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,833 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestServiceImpl/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,885 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestServiceImpl/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,889 DEBUG [PathMatchingResourcePatternResolver] - Looking for matching resources in directory tree [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test]
+2016-03-24 19:41:44,890 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestService/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,891 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestService/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,895 DEBUG [PathMatchingResourcePatternResolver] - Looking for matching resources in directory tree [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test]
+2016-03-24 19:41:44,896 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestObjects/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,897 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\jaxb] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestObjects/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,900 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestObjects/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,903 DEBUG [PathMatchingResourcePatternResolver] - Searching directory [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject] for files matching pattern [C:/Users/Veeru/git/janbatchnew/RestObjects/target/classes/com/test/**/*.class]
+2016-03-24 19:41:44,910 DEBUG [PathMatchingResourcePatternResolver] - Resolved location pattern [classpath*:com/test/**/*.class] to resources [file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\DataException.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDAO.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDTO.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonRowMapper.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CreditService.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CustomRequestInterceptor.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\ExceptionHandler.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\IPDetailsService.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\PersonService.class], file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\StudentService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditSOAPService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsSoapService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IPersonService.class], file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IStudentService.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\jaxb\XMLTest.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditAccount.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditRequest.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditResponse.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ErrorResponse.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ObjectFactory.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\package-info.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentRequest.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentResponse.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Address.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\ObjectFactory.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\package-info.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Person.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonRequest.class], file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonResponse.class]]
+2016-03-24 19:41:44,911 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\DataException.class]
+2016-03-24 19:41:44,912 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\DataException.class]
+2016-03-24 19:41:44,912 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDAO.class]
+2016-03-24 19:41:44,915 DEBUG [ClassPathBeanDefinitionScanner] - Identified candidate component class: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDAO.class]
+2016-03-24 19:41:44,915 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDTO.class]
+2016-03-24 19:41:44,922 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonDTO.class]
+2016-03-24 19:41:44,922 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonRowMapper.class]
+2016-03-24 19:41:44,924 DEBUG [ClassPathBeanDefinitionScanner] - Identified candidate component class: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\dao\PersonRowMapper.class]
+2016-03-24 19:41:44,924 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CreditService.class]
+2016-03-24 19:41:44,925 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CreditService.class]
+2016-03-24 19:41:44,926 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CustomRequestInterceptor.class]
+2016-03-24 19:41:44,927 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\CustomRequestInterceptor.class]
+2016-03-24 19:41:44,927 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\ExceptionHandler.class]
+2016-03-24 19:41:44,928 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\ExceptionHandler.class]
+2016-03-24 19:41:44,929 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\IPDetailsService.class]
+2016-03-24 19:41:44,929 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\IPDetailsService.class]
+2016-03-24 19:41:44,930 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\PersonService.class]
+2016-03-24 19:41:44,931 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\PersonService.class]
+2016-03-24 19:41:44,932 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\StudentService.class]
+2016-03-24 19:41:44,932 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestServiceImpl\target\classes\com\test\service\StudentService.class]
+2016-03-24 19:41:44,933 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditService.class]
+2016-03-24 19:41:44,935 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditService.class]
+2016-03-24 19:41:44,936 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditSOAPService.class]
+2016-03-24 19:41:44,937 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\ICreditSOAPService.class]
+2016-03-24 19:41:44,938 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsService.class]
+2016-03-24 19:41:44,940 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsService.class]
+2016-03-24 19:41:44,940 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsSoapService.class]
+2016-03-24 19:41:44,941 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IIPDetailsSoapService.class]
+2016-03-24 19:41:44,942 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IPersonService.class]
+2016-03-24 19:41:44,943 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IPersonService.class]
+2016-03-24 19:41:44,944 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IStudentService.class]
+2016-03-24 19:41:44,946 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestService\target\classes\com\test\service\IStudentService.class]
+2016-03-24 19:41:44,947 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\jaxb\XMLTest.class]
+2016-03-24 19:41:44,949 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\jaxb\XMLTest.class]
+2016-03-24 19:41:44,950 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditAccount.class]
+2016-03-24 19:41:44,953 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditAccount.class]
+2016-03-24 19:41:44,954 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditRequest.class]
+2016-03-24 19:41:44,957 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditRequest.class]
+2016-03-24 19:41:44,957 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditResponse.class]
+2016-03-24 19:41:44,959 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\CreditResponse.class]
+2016-03-24 19:41:44,959 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ErrorResponse.class]
+2016-03-24 19:41:44,962 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ErrorResponse.class]
+2016-03-24 19:41:44,962 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ObjectFactory.class]
+2016-03-24 19:41:44,963 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\ObjectFactory.class]
+2016-03-24 19:41:44,964 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\package-info.class]
+2016-03-24 19:41:44,966 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\package-info.class]
+2016-03-24 19:41:44,966 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentRequest.class]
+2016-03-24 19:41:45,001 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentRequest.class]
+2016-03-24 19:41:45,001 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentResponse.class]
+2016-03-24 19:41:45,003 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\service\StudentResponse.class]
+2016-03-24 19:41:45,003 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Address.class]
+2016-03-24 19:41:45,006 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Address.class]
+2016-03-24 19:41:45,006 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\ObjectFactory.class]
+2016-03-24 19:41:45,007 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\ObjectFactory.class]
+2016-03-24 19:41:45,007 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\package-info.class]
+2016-03-24 19:41:45,008 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\package-info.class]
+2016-03-24 19:41:45,008 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Person.class]
+2016-03-24 19:41:45,010 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\Person.class]
+2016-03-24 19:41:45,010 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonRequest.class]
+2016-03-24 19:41:45,012 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonRequest.class]
+2016-03-24 19:41:45,012 TRACE [ClassPathBeanDefinitionScanner] - Scanning file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonResponse.class]
+2016-03-24 19:41:45,014 TRACE [ClassPathBeanDefinitionScanner] - Ignored because not matching any filter: file [C:\Users\Veeru\git\janbatchnew\RestObjects\target\classes\com\test\xproject\PersonResponse.class]
+2016-03-24 19:41:45,451 DEBUG [LogUtils] - Using org.apache.cxf.common.logging.Log4jLogger for logging.
+2016-03-24 19:41:45,481 DEBUG [AbstractBeanDefinitionParser] - Adding org.apache.cxf.configuration.spring.AbstractBeanDefinitionParser.wireBus attribute PROPERTY to bean org.springframework.beans.factory.support.BeanDefinitionBuilder@31c7528f
+2016-03-24 19:41:45,533 DEBUG [AbstractBeanDefinitionParser] - Adding org.apache.cxf.configuration.spring.AbstractBeanDefinitionParser.wireBus attribute CONSTRUCTOR to bean org.springframework.beans.factory.support.BeanDefinitionBuilder@2631f68c
+2016-03-24 19:41:45,534 DEBUG [AbstractBeanDefinitionParser] - Adding org.apache.cxf.configuration.spring.AbstractBeanDefinitionParser.wireBus attribute CONSTRUCTOR to bean org.springframework.beans.factory.support.BeanDefinitionBuilder@6ed3f258
+2016-03-24 19:41:45,535 DEBUG [AbstractBeanDefinitionParser] - Adding org.apache.cxf.configuration.spring.AbstractBeanDefinitionParser.wireBus attribute CONSTRUCTOR to bean org.springframework.beans.factory.support.BeanDefinitionBuilder@8ad6665
+2016-03-24 19:41:45,535 DEBUG [XmlBeanDefinitionReader] - Loaded 27 bean definitions from location pattern [classpath:serviceApplicationContext.xml]
+2016-03-24 19:41:45,536 DEBUG [XmlWebApplicationContext] - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:45,725 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-24 19:41:45,725 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-24 19:41:45,782 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-03-24 19:41:45,786 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-24 19:41:45,952 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'propertyPlaceholderConfigurer'
+2016-03-24 19:41:45,953 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'propertyPlaceholderConfigurer'
+2016-03-24 19:41:45,962 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'propertyPlaceholderConfigurer' to allow for resolving potential circular references
+2016-03-24 19:41:46,011 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+2016-03-24 19:41:46,038 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]
+2016-03-24 19:41:46,039 TRACE [CachedIntrospectionResults] - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2016-03-24 19:41:46,042 TRACE [CachedIntrospectionResults] - Found bean property 'beanName' of type [java.lang.String]
+2016-03-24 19:41:46,042 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:46,043 TRACE [CachedIntrospectionResults] - Found bean property 'fileEncoding' of type [java.lang.String]
+2016-03-24 19:41:46,045 TRACE [CachedIntrospectionResults] - Found bean property 'ignoreResourceNotFound' of type [boolean]
+2016-03-24 19:41:46,046 TRACE [CachedIntrospectionResults] - Found bean property 'ignoreUnresolvablePlaceholders' of type [boolean]
+2016-03-24 19:41:46,048 TRACE [CachedIntrospectionResults] - Found bean property 'localOverride' of type [boolean]
+2016-03-24 19:41:46,049 TRACE [CachedIntrospectionResults] - Found bean property 'location' of type [org.springframework.core.io.Resource]
+2016-03-24 19:41:46,049 TRACE [CachedIntrospectionResults] - Found bean property 'locations' of type [[Lorg.springframework.core.io.Resource;]
+2016-03-24 19:41:46,050 TRACE [CachedIntrospectionResults] - Found bean property 'nullValue' of type [java.lang.String]
+2016-03-24 19:41:46,050 TRACE [CachedIntrospectionResults] - Found bean property 'order' of type [int]
+2016-03-24 19:41:46,050 TRACE [CachedIntrospectionResults] - Found bean property 'placeholderPrefix' of type [java.lang.String]
+2016-03-24 19:41:46,051 TRACE [CachedIntrospectionResults] - Found bean property 'placeholderSuffix' of type [java.lang.String]
+2016-03-24 19:41:46,053 TRACE [CachedIntrospectionResults] - Found bean property 'properties' of type [java.util.Properties]
+2016-03-24 19:41:46,053 TRACE [CachedIntrospectionResults] - Found bean property 'propertiesArray' of type [[Ljava.util.Properties;]
+2016-03-24 19:41:46,054 TRACE [CachedIntrospectionResults] - Found bean property 'propertiesPersister' of type [org.springframework.util.PropertiesPersister]
+2016-03-24 19:41:46,055 TRACE [CachedIntrospectionResults] - Found bean property 'searchSystemEnvironment' of type [boolean]
+2016-03-24 19:41:46,056 TRACE [CachedIntrospectionResults] - Found bean property 'systemPropertiesMode' of type [int]
+2016-03-24 19:41:46,056 TRACE [CachedIntrospectionResults] - Found bean property 'systemPropertiesModeName' of type [java.lang.String]
+2016-03-24 19:41:46,056 TRACE [CachedIntrospectionResults] - Found bean property 'valueSeparator' of type [java.lang.String]
+2016-03-24 19:41:46,066 TRACE [TypeConverterDelegate] - Converting String to [interface org.springframework.core.io.Resource] using property editor [org.springframework.core.io.ResourceEditor@7e7b159b]
+2016-03-24 19:41:46,146 TRACE [TypeConverterDelegate] - Converting String to [boolean] using property editor [org.springframework.beans.propertyeditors.CustomBooleanEditor@52d645b1]
+2016-03-24 19:41:46,148 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'propertyPlaceholderConfigurer'
+2016-03-24 19:41:46,148 INFO  [PropertyPlaceholderConfigurer] - Loading properties file from class path resource [database.properites]
+2016-03-24 19:41:46,157 TRACE [PropertyPlaceholderHelper] - Resolved placeholder 'dbUrl'
+2016-03-24 19:41:46,157 TRACE [PropertyPlaceholderHelper] - Resolved placeholder 'password'
+2016-03-24 19:41:46,158 TRACE [PropertyPlaceholderHelper] - Resolved placeholder 'username'
+2016-03-24 19:41:46,158 TRACE [PropertyPlaceholderHelper] - Resolved placeholder 'driverClassName'
+2016-03-24 19:41:46,161 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor'
+2016-03-24 19:41:46,161 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor'
+2016-03-24 19:41:46,162 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor' to allow for resolving potential circular references
+2016-03-24 19:41:46,163 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor'
+2016-03-24 19:41:46,177 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-24 19:41:46,177 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-24 19:41:46,181 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-24 19:41:46,182 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-24 19:41:46,182 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-24 19:41:46,183 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-24 19:41:46,186 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-03-24 19:41:46,186 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-24 19:41:46,187 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-24 19:41:46,187 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-24 19:41:46,200 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-03-24 19:41:46,200 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-24 19:41:46,204 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor'
+2016-03-24 19:41:46,212 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor'
+2016-03-24 19:41:46,222 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor' to allow for resolving potential circular references
+2016-03-24 19:41:46,223 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]
+2016-03-24 19:41:46,237 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]
+2016-03-24 19:41:46,237 TRACE [CachedIntrospectionResults] - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-03-24 19:41:46,238 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:46,238 TRACE [CachedIntrospectionResults] - Found bean property 'order' of type [int]
+2016-03-24 19:41:46,246 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor'
+2016-03-24 19:41:46,247 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor'
+2016-03-24 19:41:46,247 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor'
+2016-03-24 19:41:46,248 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor' to allow for resolving potential circular references
+2016-03-24 19:41:46,249 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]
+2016-03-24 19:41:46,258 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]
+2016-03-24 19:41:46,258 TRACE [CachedIntrospectionResults] - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-03-24 19:41:46,258 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:46,259 TRACE [CachedIntrospectionResults] - Found bean property 'order' of type [int]
+2016-03-24 19:41:46,259 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor'
+2016-03-24 19:41:46,269 DEBUG [XmlWebApplicationContext] - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@3a0d172f]
+2016-03-24 19:41:46,276 DEBUG [XmlWebApplicationContext] - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@7b5a12ae]
+2016-03-24 19:41:46,284 DEBUG [UiApplicationContextUtils] - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5286c33a]
+2016-03-24 19:41:46,288 INFO  [DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:46,289 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'cxf'
+2016-03-24 19:41:46,289 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'cxf'
+2016-03-24 19:41:46,512 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'cxf' to allow for resolving potential circular references
+2016-03-24 19:41:46,512 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.apache.cxf.bus.spring.SpringBus]
+2016-03-24 19:41:46,555 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.apache.cxf.bus.spring.SpringBus]
+2016-03-24 19:41:46,555 TRACE [CachedIntrospectionResults] - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-03-24 19:41:46,556 TRACE [CachedIntrospectionResults] - Found bean property 'busConfig' of type [org.apache.cxf.bus.spring.BusDefinitionParser$BusConfig]
+2016-03-24 19:41:46,556 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:46,556 TRACE [CachedIntrospectionResults] - Found bean property 'features' of type [java.util.Collection]
+2016-03-24 19:41:46,557 TRACE [CachedIntrospectionResults] - Found bean property 'id' of type [java.lang.String]
+2016-03-24 19:41:46,557 TRACE [CachedIntrospectionResults] - Found bean property 'inFaultInterceptors' of type [java.util.List]
+2016-03-24 19:41:46,557 TRACE [CachedIntrospectionResults] - Found bean property 'inInterceptors' of type [java.util.List]
+2016-03-24 19:41:46,557 TRACE [CachedIntrospectionResults] - Found bean property 'outFaultInterceptors' of type [java.util.List]
+2016-03-24 19:41:46,557 TRACE [CachedIntrospectionResults] - Found bean property 'outInterceptors' of type [java.util.List]
+2016-03-24 19:41:46,558 TRACE [CachedIntrospectionResults] - Found bean property 'properties' of type [java.util.Map]
+2016-03-24 19:41:46,558 TRACE [CachedIntrospectionResults] - Found bean property 'state' of type [org.apache.cxf.bus.BusState]
+2016-03-24 19:41:46,596 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.buslifecycle.CXFBusLifeCycleManager.
+2016-03-24 19:41:46,598 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.endpoint.ServerRegistryImpl.
+2016-03-24 19:41:46,599 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'cxf'
+2016-03-24 19:41:46,600 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor'
+2016-03-24 19:41:46,600 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor'
+2016-03-24 19:41:46,600 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor'
+2016-03-24 19:41:46,601 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'personDAO'
+2016-03-24 19:41:46,601 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'personDAO'
+2016-03-24 19:41:46,620 DEBUG [InjectionMetadata] - Found injected element on class [com.test.dao.PersonDAO]: AutowiredFieldElement for private org.springframework.jdbc.core.JdbcTemplate com.test.dao.PersonDAO.jdbcTemplate
+2016-03-24 19:41:46,622 DEBUG [InjectionMetadata] - Found injected element on class [com.test.dao.PersonDAO]: AutowiredFieldElement for private com.test.dao.PersonRowMapper com.test.dao.PersonDAO.personRowMapper
+2016-03-24 19:41:46,623 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'personDAO' to allow for resolving potential circular references
+2016-03-24 19:41:46,623 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [com.test.dao.PersonDAO]
+2016-03-24 19:41:46,635 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [com.test.dao.PersonDAO]
+2016-03-24 19:41:46,636 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:46,636 TRACE [CachedIntrospectionResults] - Found bean property 'personByID'
+2016-03-24 19:41:46,637 DEBUG [InjectionMetadata] - Processing injected method of bean 'personDAO': AutowiredFieldElement for private org.springframework.jdbc.core.JdbcTemplate com.test.dao.PersonDAO.jdbcTemplate
+2016-03-24 19:41:46,641 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'jdbcTemplate'
+2016-03-24 19:41:46,641 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'jdbcTemplate'
+2016-03-24 19:41:46,671 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'mySQLDataSource'
+2016-03-24 19:41:46,671 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'mySQLDataSource'
+2016-03-24 19:41:46,703 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'mySQLDataSource' to allow for resolving potential circular references
+2016-03-24 19:41:46,703 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.apache.commons.dbcp.BasicDataSource]
+2016-03-24 19:41:46,715 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.apache.commons.dbcp.BasicDataSource]
+2016-03-24 19:41:46,716 TRACE [CachedIntrospectionResults] - Found bean property 'accessToUnderlyingConnectionAllowed' of type [boolean]
+2016-03-24 19:41:46,716 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:46,717 TRACE [CachedIntrospectionResults] - Found bean property 'closed' of type [boolean]
+2016-03-24 19:41:46,717 TRACE [CachedIntrospectionResults] - Found bean property 'connection' of type [java.sql.Connection]
+2016-03-24 19:41:46,718 TRACE [CachedIntrospectionResults] - Found bean property 'connectionInitSqls' of type [java.util.Collection]
+2016-03-24 19:41:46,718 TRACE [CachedIntrospectionResults] - Found bean property 'connectionProperties' of type [java.lang.String]
+2016-03-24 19:41:46,718 TRACE [CachedIntrospectionResults] - Found bean property 'defaultAutoCommit' of type [boolean]
+2016-03-24 19:41:46,719 TRACE [CachedIntrospectionResults] - Found bean property 'defaultCatalog' of type [java.lang.String]
+2016-03-24 19:41:46,719 TRACE [CachedIntrospectionResults] - Found bean property 'defaultReadOnly' of type [boolean]
+2016-03-24 19:41:46,720 TRACE [CachedIntrospectionResults] - Found bean property 'defaultTransactionIsolation' of type [int]
+2016-03-24 19:41:46,720 TRACE [CachedIntrospectionResults] - Found bean property 'driverClassLoader' of type [java.lang.ClassLoader]
+2016-03-24 19:41:46,720 TRACE [CachedIntrospectionResults] - Found bean property 'driverClassName' of type [java.lang.String]
+2016-03-24 19:41:46,721 TRACE [CachedIntrospectionResults] - Found bean property 'initialSize' of type [int]
+2016-03-24 19:41:46,721 TRACE [CachedIntrospectionResults] - Found bean property 'logAbandoned' of type [boolean]
+2016-03-24 19:41:46,721 TRACE [CachedIntrospectionResults] - Found bean property 'logWriter' of type [java.io.PrintWriter]
+2016-03-24 19:41:46,721 TRACE [CachedIntrospectionResults] - Found bean property 'loginTimeout' of type [int]
+2016-03-24 19:41:46,722 TRACE [CachedIntrospectionResults] - Found bean property 'maxActive' of type [int]
+2016-03-24 19:41:46,722 TRACE [CachedIntrospectionResults] - Found bean property 'maxIdle' of type [int]
+2016-03-24 19:41:46,722 TRACE [CachedIntrospectionResults] - Found bean property 'maxOpenPreparedStatements' of type [int]
+2016-03-24 19:41:46,723 TRACE [CachedIntrospectionResults] - Found bean property 'maxWait' of type [long]
+2016-03-24 19:41:46,723 TRACE [CachedIntrospectionResults] - Found bean property 'minEvictableIdleTimeMillis' of type [long]
+2016-03-24 19:41:46,723 TRACE [CachedIntrospectionResults] - Found bean property 'minIdle' of type [int]
+2016-03-24 19:41:46,724 TRACE [CachedIntrospectionResults] - Found bean property 'numActive' of type [int]
+2016-03-24 19:41:46,724 TRACE [CachedIntrospectionResults] - Found bean property 'numIdle' of type [int]
+2016-03-24 19:41:46,724 TRACE [CachedIntrospectionResults] - Found bean property 'numTestsPerEvictionRun' of type [int]
+2016-03-24 19:41:46,725 TRACE [CachedIntrospectionResults] - Found bean property 'password' of type [java.lang.String]
+2016-03-24 19:41:46,725 TRACE [CachedIntrospectionResults] - Found bean property 'poolPreparedStatements' of type [boolean]
+2016-03-24 19:41:46,725 TRACE [CachedIntrospectionResults] - Found bean property 'removeAbandoned' of type [boolean]
+2016-03-24 19:41:46,725 TRACE [CachedIntrospectionResults] - Found bean property 'removeAbandonedTimeout' of type [int]
+2016-03-24 19:41:46,725 TRACE [CachedIntrospectionResults] - Found bean property 'testOnBorrow' of type [boolean]
+2016-03-24 19:41:46,726 TRACE [CachedIntrospectionResults] - Found bean property 'testOnReturn' of type [boolean]
+2016-03-24 19:41:46,726 TRACE [CachedIntrospectionResults] - Found bean property 'testWhileIdle' of type [boolean]
+2016-03-24 19:41:46,726 TRACE [CachedIntrospectionResults] - Found bean property 'timeBetweenEvictionRunsMillis' of type [long]
+2016-03-24 19:41:46,726 TRACE [CachedIntrospectionResults] - Found bean property 'url' of type [java.lang.String]
+2016-03-24 19:41:46,727 TRACE [CachedIntrospectionResults] - Found bean property 'username' of type [java.lang.String]
+2016-03-24 19:41:46,727 TRACE [CachedIntrospectionResults] - Found bean property 'validationQuery' of type [java.lang.String]
+2016-03-24 19:41:46,727 TRACE [CachedIntrospectionResults] - Found bean property 'validationQueryTimeout' of type [int]
+2016-03-24 19:41:46,728 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'mySQLDataSource'
+2016-03-24 19:41:46,758 TRACE [DefaultListableBeanFactory] - Ignoring constructor [public org.springframework.jdbc.core.JdbcTemplate(javax.sql.DataSource,boolean)] of bean 'jdbcTemplate': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcTemplate' defined in class path resource [jdbcContext.xml]: Unsatisfied dependency expressed through constructor argument with index 1 of type [boolean]: Ambiguous constructor argument types - did you specify the correct bean references as constructor arguments?
+2016-03-24 19:41:46,765 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'jdbcTemplate' to allow for resolving potential circular references
+2016-03-24 19:41:46,765 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.springframework.jdbc.core.JdbcTemplate]
+2016-03-24 19:41:46,797 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.springframework.jdbc.core.JdbcTemplate]
+2016-03-24 19:41:46,798 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:46,798 TRACE [CachedIntrospectionResults] - Found bean property 'dataSource' of type [javax.sql.DataSource]
+2016-03-24 19:41:46,798 TRACE [CachedIntrospectionResults] - Found bean property 'databaseProductName' of type [java.lang.String]
+2016-03-24 19:41:46,799 TRACE [CachedIntrospectionResults] - Found bean property 'exceptionTranslator' of type [org.springframework.jdbc.support.SQLExceptionTranslator]
+2016-03-24 19:41:46,799 TRACE [CachedIntrospectionResults] - Found bean property 'fetchSize' of type [int]
+2016-03-24 19:41:46,799 TRACE [CachedIntrospectionResults] - Found bean property 'ignoreWarnings' of type [boolean]
+2016-03-24 19:41:46,799 TRACE [CachedIntrospectionResults] - Found bean property 'lazyInit' of type [boolean]
+2016-03-24 19:41:46,800 TRACE [CachedIntrospectionResults] - Found bean property 'maxRows' of type [int]
+2016-03-24 19:41:46,800 TRACE [CachedIntrospectionResults] - Found bean property 'nativeJdbcExtractor' of type [org.springframework.jdbc.support.nativejdbc.NativeJdbcExtractor]
+2016-03-24 19:41:46,800 TRACE [CachedIntrospectionResults] - Found bean property 'queryTimeout' of type [int]
+2016-03-24 19:41:46,800 TRACE [CachedIntrospectionResults] - Found bean property 'resultsMapCaseInsensitive' of type [boolean]
+2016-03-24 19:41:46,801 TRACE [CachedIntrospectionResults] - Found bean property 'skipResultsProcessing' of type [boolean]
+2016-03-24 19:41:46,801 TRACE [CachedIntrospectionResults] - Found bean property 'skipUndeclaredResults' of type [boolean]
+2016-03-24 19:41:46,801 DEBUG [DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'jdbcTemplate'
+2016-03-24 19:41:46,802 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'jdbcTemplate'
+2016-03-24 19:41:46,802 DEBUG [AutowiredAnnotationBeanPostProcessor] - Autowiring by type from bean name 'personDAO' to bean named 'jdbcTemplate'
+2016-03-24 19:41:46,803 DEBUG [InjectionMetadata] - Processing injected method of bean 'personDAO': AutowiredFieldElement for private com.test.dao.PersonRowMapper com.test.dao.PersonDAO.personRowMapper
+2016-03-24 19:41:46,804 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'personRowMapper'
+2016-03-24 19:41:46,804 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'personRowMapper'
+2016-03-24 19:41:46,807 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'personRowMapper' to allow for resolving potential circular references
+2016-03-24 19:41:46,808 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [com.test.dao.PersonRowMapper]
+2016-03-24 19:41:46,814 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [com.test.dao.PersonRowMapper]
+2016-03-24 19:41:46,815 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:46,815 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'personRowMapper'
+2016-03-24 19:41:46,816 DEBUG [AutowiredAnnotationBeanPostProcessor] - Autowiring by type from bean name 'personDAO' to bean named 'personRowMapper'
+2016-03-24 19:41:46,816 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'personDAO'
+2016-03-24 19:41:46,816 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'personRowMapper'
+2016-03-24 19:41:46,816 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-03-24 19:41:46,816 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-03-24 19:41:46,817 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-03-24 19:41:46,817 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-03-24 19:41:46,817 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'propertyPlaceholderConfigurer'
+2016-03-24 19:41:46,817 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'mySQLDataSource'
+2016-03-24 19:41:46,817 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'jdbcTemplate'
+2016-03-24 19:41:46,817 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'restTemplate'
+2016-03-24 19:41:46,818 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'restTemplate'
+2016-03-24 19:41:47,545 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'restTemplate' to allow for resolving potential circular references
+2016-03-24 19:41:47,546 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.springframework.web.client.RestTemplate]
+2016-03-24 19:41:47,571 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.springframework.web.client.RestTemplate]
+2016-03-24 19:41:47,572 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:47,572 TRACE [CachedIntrospectionResults] - Found bean property 'errorHandler' of type [org.springframework.web.client.ResponseErrorHandler]
+2016-03-24 19:41:47,572 TRACE [CachedIntrospectionResults] - Found bean property 'messageConverters' of type [java.util.List]
+2016-03-24 19:41:47,573 TRACE [CachedIntrospectionResults] - Found bean property 'requestFactory' of type [org.springframework.http.client.ClientHttpRequestFactory]
+2016-03-24 19:41:47,576 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'xmlConverter'
+2016-03-24 19:41:47,577 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'xmlConverter'
+2016-03-24 19:41:47,583 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'jaxbMarshaller'
+2016-03-24 19:41:47,584 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'jaxbMarshaller'
+2016-03-24 19:41:47,598 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'jaxbMarshaller' to allow for resolving potential circular references
+2016-03-24 19:41:47,599 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.springframework.oxm.jaxb.Jaxb2Marshaller]
+2016-03-24 19:41:47,615 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.springframework.oxm.jaxb.Jaxb2Marshaller]
+2016-03-24 19:41:47,616 TRACE [CachedIntrospectionResults] - Found bean property 'adapters' of type [[Ljavax.xml.bind.annotation.adapters.XmlAdapter;]
+2016-03-24 19:41:47,616 TRACE [CachedIntrospectionResults] - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2016-03-24 19:41:47,616 TRACE [CachedIntrospectionResults] - Found bean property 'checkForXmlRootElement' of type [boolean]
+2016-03-24 19:41:47,617 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:47,617 TRACE [CachedIntrospectionResults] - Found bean property 'classesToBeBound' of type [[Ljava.lang.Class;]
+2016-03-24 19:41:47,617 TRACE [CachedIntrospectionResults] - Found bean property 'contextPath' of type [java.lang.String]
+2016-03-24 19:41:47,617 TRACE [CachedIntrospectionResults] - Found bean property 'contextPaths' of type [[Ljava.lang.String;]
+2016-03-24 19:41:47,618 TRACE [CachedIntrospectionResults] - Found bean property 'jaxbContext' of type [javax.xml.bind.JAXBContext]
+2016-03-24 19:41:47,618 TRACE [CachedIntrospectionResults] - Found bean property 'jaxbContextProperties' of type [java.util.Map]
+2016-03-24 19:41:47,618 TRACE [CachedIntrospectionResults] - Found bean property 'lazyInit' of type [boolean]
+2016-03-24 19:41:47,619 TRACE [CachedIntrospectionResults] - Found bean property 'mappedClass' of type [java.lang.Class]
+2016-03-24 19:41:47,619 TRACE [CachedIntrospectionResults] - Found bean property 'marshallerListener' of type [javax.xml.bind.Marshaller$Listener]
+2016-03-24 19:41:47,619 TRACE [CachedIntrospectionResults] - Found bean property 'marshallerProperties' of type [java.util.Map]
+2016-03-24 19:41:47,620 TRACE [CachedIntrospectionResults] - Found bean property 'mtomEnabled' of type [boolean]
+2016-03-24 19:41:47,620 TRACE [CachedIntrospectionResults] - Found bean property 'packagesToScan' of type [[Ljava.lang.String;]
+2016-03-24 19:41:47,620 TRACE [CachedIntrospectionResults] - Found bean property 'processExternalEntities' of type [boolean]
+2016-03-24 19:41:47,621 TRACE [CachedIntrospectionResults] - Found bean property 'schema' of type [org.springframework.core.io.Resource]
+2016-03-24 19:41:47,621 TRACE [CachedIntrospectionResults] - Found bean property 'schemaLanguage' of type [java.lang.String]
+2016-03-24 19:41:47,621 TRACE [CachedIntrospectionResults] - Found bean property 'schemaResourceResolver' of type [org.w3c.dom.ls.LSResourceResolver]
+2016-03-24 19:41:47,622 TRACE [CachedIntrospectionResults] - Found bean property 'schemas' of type [[Lorg.springframework.core.io.Resource;]
+2016-03-24 19:41:47,622 TRACE [CachedIntrospectionResults] - Found bean property 'supportJaxbElementClass' of type [boolean]
+2016-03-24 19:41:47,622 TRACE [CachedIntrospectionResults] - Found bean property 'unmarshallerListener' of type [javax.xml.bind.Unmarshaller$Listener]
+2016-03-24 19:41:47,623 TRACE [CachedIntrospectionResults] - Found bean property 'unmarshallerProperties' of type [java.util.Map]
+2016-03-24 19:41:47,623 TRACE [CachedIntrospectionResults] - Found bean property 'validationEventHandler' of type [javax.xml.bind.ValidationEventHandler]
+2016-03-24 19:41:47,625 TRACE [TypeConverterDelegate] - Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@2a3a299]
+2016-03-24 19:41:47,665 DEBUG [DefaultListableBeanFactory] - Invoking afterPropertiesSet() on bean with name 'jaxbMarshaller'
+2016-03-24 19:41:47,665 INFO  [Jaxb2Marshaller] - Creating JAXBContext with classes to be bound [class generated.Response]
+2016-03-24 19:41:48,042 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'jaxbMarshaller'
+2016-03-24 19:41:48,045 TRACE [DefaultListableBeanFactory] - Ignoring constructor [public org.springframework.http.converter.xml.MarshallingHttpMessageConverter(org.springframework.oxm.Marshaller,org.springframework.oxm.Unmarshaller)] of bean 'xmlConverter': org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'xmlConverter' defined in class path resource [restClientApplicationContext.xml]: Unsatisfied dependency expressed through constructor argument with index 1 of type [org.springframework.oxm.Unmarshaller]: Ambiguous constructor argument types - did you specify the correct bean references as constructor arguments?
+2016-03-24 19:41:48,048 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'xmlConverter' to allow for resolving potential circular references
+2016-03-24 19:41:48,048 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.springframework.http.converter.xml.MarshallingHttpMessageConverter]
+2016-03-24 19:41:48,076 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.springframework.http.converter.xml.MarshallingHttpMessageConverter]
+2016-03-24 19:41:48,076 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,077 TRACE [CachedIntrospectionResults] - Found bean property 'marshaller' of type [org.springframework.oxm.Marshaller]
+2016-03-24 19:41:48,077 TRACE [CachedIntrospectionResults] - Found bean property 'supportedMediaTypes' of type [java.util.List]
+2016-03-24 19:41:48,077 TRACE [CachedIntrospectionResults] - Found bean property 'unmarshaller' of type [org.springframework.oxm.Unmarshaller]
+2016-03-24 19:41:48,080 TRACE [TypeConverterDelegate] - Converting String to [interface java.util.List] using property editor [org.springframework.beans.propertyeditors.CustomCollectionEditor@231baf51]
+2016-03-24 19:41:48,086 TRACE [TypeConverterDelegate] - Converting String to [class org.springframework.http.MediaType] using property editor [org.springframework.http.MediaTypeEditor@5d235104]
+2016-03-24 19:41:48,087 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'xmlConverter'
+2016-03-24 19:41:48,088 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'jsonConverter'
+2016-03-24 19:41:48,088 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'jsonConverter'
+2016-03-24 19:41:48,091 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'jsonConverter' to allow for resolving potential circular references
+2016-03-24 19:41:48,092 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter]
+2016-03-24 19:41:48,105 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.springframework.http.converter.json.MappingJacksonHttpMessageConverter]
+2016-03-24 19:41:48,106 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,106 TRACE [CachedIntrospectionResults] - Found bean property 'objectMapper' of type [org.codehaus.jackson.map.ObjectMapper]
+2016-03-24 19:41:48,106 TRACE [CachedIntrospectionResults] - Found bean property 'prefixJson' of type [boolean]
+2016-03-24 19:41:48,107 TRACE [CachedIntrospectionResults] - Found bean property 'supportedMediaTypes' of type [java.util.List]
+2016-03-24 19:41:48,107 TRACE [TypeConverterDelegate] - Converting String to [interface java.util.List] using property editor [org.springframework.beans.propertyeditors.CustomCollectionEditor@3af356f]
+2016-03-24 19:41:48,108 TRACE [TypeConverterDelegate] - Converting String to [class org.springframework.http.MediaType] using property editor [org.springframework.http.MediaTypeEditor@4443ef6f]
+2016-03-24 19:41:48,108 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'jsonConverter'
+2016-03-24 19:41:48,109 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'restTemplate'
+2016-03-24 19:41:48,109 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'xmlConverter'
+2016-03-24 19:41:48,109 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'jaxbMarshaller'
+2016-03-24 19:41:48,109 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'jsonConverter'
+2016-03-24 19:41:48,109 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'creditService'
+2016-03-24 19:41:48,110 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'creditService'
+2016-03-24 19:41:48,151 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'creditService' to allow for resolving potential circular references
+2016-03-24 19:41:48,152 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [com.test.service.CreditService]
+2016-03-24 19:41:48,162 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [com.test.service.CreditService]
+2016-03-24 19:41:48,162 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,163 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'creditService'
+2016-03-24 19:41:48,163 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'personService'
+2016-03-24 19:41:48,163 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'personService'
+2016-03-24 19:41:48,168 DEBUG [InjectionMetadata] - Found injected element on class [com.test.service.PersonService]: AutowiredFieldElement for private com.test.dao.PersonDAO com.test.service.PersonService.personDAO
+2016-03-24 19:41:48,169 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'personService' to allow for resolving potential circular references
+2016-03-24 19:41:48,169 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [com.test.service.PersonService]
+2016-03-24 19:41:48,178 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [com.test.service.PersonService]
+2016-03-24 19:41:48,178 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,179 DEBUG [InjectionMetadata] - Processing injected method of bean 'personService': AutowiredFieldElement for private com.test.dao.PersonDAO com.test.service.PersonService.personDAO
+2016-03-24 19:41:48,181 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'personDAO'
+2016-03-24 19:41:48,182 DEBUG [AutowiredAnnotationBeanPostProcessor] - Autowiring by type from bean name 'personService' to bean named 'personDAO'
+2016-03-24 19:41:48,182 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'personService'
+2016-03-24 19:41:48,182 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'ipService'
+2016-03-24 19:41:48,183 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'ipService'
+2016-03-24 19:41:48,184 DEBUG [InjectionMetadata] - Found injected element on class [com.test.service.IPDetailsService]: AutowiredFieldElement for private org.springframework.web.client.RestTemplate com.test.service.IPDetailsService.restTemplate
+2016-03-24 19:41:48,184 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'ipService' to allow for resolving potential circular references
+2016-03-24 19:41:48,186 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [com.test.service.IPDetailsService]
+2016-03-24 19:41:48,193 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [com.test.service.IPDetailsService]
+2016-03-24 19:41:48,194 TRACE [CachedIntrospectionResults] - Found bean property 'IPDetails' of type [generated.Response]
+2016-03-24 19:41:48,194 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,195 DEBUG [InjectionMetadata] - Processing injected method of bean 'ipService': AutowiredFieldElement for private org.springframework.web.client.RestTemplate com.test.service.IPDetailsService.restTemplate
+2016-03-24 19:41:48,196 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'restTemplate'
+2016-03-24 19:41:48,196 DEBUG [AutowiredAnnotationBeanPostProcessor] - Autowiring by type from bean name 'ipService' to bean named 'restTemplate'
+2016-03-24 19:41:48,197 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'ipService'
+2016-03-24 19:41:48,197 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'studentService'
+2016-03-24 19:41:48,197 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'studentService'
+2016-03-24 19:41:48,203 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'studentService' to allow for resolving potential circular references
+2016-03-24 19:41:48,203 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [com.test.service.StudentService]
+2016-03-24 19:41:48,210 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [com.test.service.StudentService]
+2016-03-24 19:41:48,211 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,211 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'studentService'
+2016-03-24 19:41:48,211 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'requestInterceptor'
+2016-03-24 19:41:48,212 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'requestInterceptor'
+2016-03-24 19:41:48,214 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'requestInterceptor' to allow for resolving potential circular references
+2016-03-24 19:41:48,215 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [com.test.service.CustomRequestInterceptor]
+2016-03-24 19:41:48,222 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [com.test.service.CustomRequestInterceptor]
+2016-03-24 19:41:48,223 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,223 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'requestInterceptor'
+2016-03-24 19:41:48,224 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'exceptionHanlder'
+2016-03-24 19:41:48,224 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'exceptionHanlder'
+2016-03-24 19:41:48,225 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'exceptionHanlder' to allow for resolving potential circular references
+2016-03-24 19:41:48,225 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [com.test.service.ExceptionHandler]
+2016-03-24 19:41:48,231 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [com.test.service.ExceptionHandler]
+2016-03-24 19:41:48,231 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,232 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'exceptionHanlder'
+2016-03-24 19:41:48,232 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'cxfServices'
+2016-03-24 19:41:48,233 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'cxfServices'
+2016-03-24 19:41:48,274 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'cxfServices' to allow for resolving potential circular references
+2016-03-24 19:41:48,274 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.apache.cxf.jaxrs.spring.JAXRSServerFactoryBeanDefinitionParser$SpringJAXRSServerFactoryBean]
+2016-03-24 19:41:48,340 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.apache.cxf.jaxrs.spring.JAXRSServerFactoryBeanDefinitionParser$SpringJAXRSServerFactoryBean]
+2016-03-24 19:41:48,340 TRACE [CachedIntrospectionResults] - Found bean property 'address' of type [java.lang.String]
+2016-03-24 19:41:48,341 TRACE [CachedIntrospectionResults] - Found bean property 'application' of type [javax.ws.rs.core.Application]
+2016-03-24 19:41:48,341 TRACE [CachedIntrospectionResults] - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-03-24 19:41:48,341 TRACE [CachedIntrospectionResults] - Found bean property 'bindingConfig' of type [org.apache.cxf.binding.BindingConfiguration]
+2016-03-24 19:41:48,342 TRACE [CachedIntrospectionResults] - Found bean property 'bindingFactory' of type [org.apache.cxf.binding.BindingFactory]
+2016-03-24 19:41:48,342 TRACE [CachedIntrospectionResults] - Found bean property 'bindingId' of type [java.lang.String]
+2016-03-24 19:41:48,342 TRACE [CachedIntrospectionResults] - Found bean property 'bus' of type [org.apache.cxf.Bus]
+2016-03-24 19:41:48,342 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,343 TRACE [CachedIntrospectionResults] - Found bean property 'conduitSelector' of type [org.apache.cxf.endpoint.ConduitSelector]
+2016-03-24 19:41:48,343 TRACE [CachedIntrospectionResults] - Found bean property 'dataBinding' of type [org.apache.cxf.databinding.DataBinding]
+2016-03-24 19:41:48,343 TRACE [CachedIntrospectionResults] - Found bean property 'destinationFactory' of type [org.apache.cxf.transport.DestinationFactory]
+2016-03-24 19:41:48,344 TRACE [CachedIntrospectionResults] - Found bean property 'docLocation' of type [java.lang.String]
+2016-03-24 19:41:48,344 TRACE [CachedIntrospectionResults] - Found bean property 'endpointName' of type [javax.xml.namespace.QName]
+2016-03-24 19:41:48,344 TRACE [CachedIntrospectionResults] - Found bean property 'endpointReference' of type [org.apache.cxf.ws.addressing.EndpointReferenceType]
+2016-03-24 19:41:48,344 TRACE [CachedIntrospectionResults] - Found bean property 'extensionMappings' of type [java.util.Map]
+2016-03-24 19:41:48,345 TRACE [CachedIntrospectionResults] - Found bean property 'features' of type [java.util.List]
+2016-03-24 19:41:48,345 TRACE [CachedIntrospectionResults] - Found bean property 'inFaultInterceptors' of type [java.util.List]
+2016-03-24 19:41:48,345 TRACE [CachedIntrospectionResults] - Found bean property 'inInterceptors' of type [java.util.List]
+2016-03-24 19:41:48,345 TRACE [CachedIntrospectionResults] - Found bean property 'invoker' of type [org.apache.cxf.service.invoker.Invoker]
+2016-03-24 19:41:48,346 TRACE [CachedIntrospectionResults] - Found bean property 'languageMappings' of type [java.util.Map]
+2016-03-24 19:41:48,346 TRACE [CachedIntrospectionResults] - Found bean property 'modelBeans' of type [java.util.List]
+2016-03-24 19:41:48,346 TRACE [CachedIntrospectionResults] - Found bean property 'modelRef' of type [java.lang.String]
+2016-03-24 19:41:48,346 TRACE [CachedIntrospectionResults] - Found bean property 'outFaultInterceptors' of type [java.util.List]
+2016-03-24 19:41:48,346 TRACE [CachedIntrospectionResults] - Found bean property 'outInterceptors' of type [java.util.List]
+2016-03-24 19:41:48,347 TRACE [CachedIntrospectionResults] - Found bean property 'properties' of type [java.util.Map]
+2016-03-24 19:41:48,347 TRACE [CachedIntrospectionResults] - Found bean property 'provider' of type [java.lang.Object]
+2016-03-24 19:41:48,347 TRACE [CachedIntrospectionResults] - Found bean property 'providers' of type [java.util.List]
+2016-03-24 19:41:48,347 TRACE [CachedIntrospectionResults] - Found bean property 'publishedEndpointUrl' of type [java.lang.String]
+2016-03-24 19:41:48,348 TRACE [CachedIntrospectionResults] - Found bean property 'resourceClasses' of type [java.util.List]
+2016-03-24 19:41:48,348 TRACE [CachedIntrospectionResults] - Found bean property 'resourceComparator' of type [org.apache.cxf.jaxrs.ext.ResourceComparator]
+2016-03-24 19:41:48,348 TRACE [CachedIntrospectionResults] - Found bean property 'resourceProvider' of type [org.apache.cxf.jaxrs.lifecycle.ResourceProvider]
+2016-03-24 19:41:48,348 TRACE [CachedIntrospectionResults] - Found bean property 'resourceProviders' of type [java.util.List]
+2016-03-24 19:41:48,349 TRACE [CachedIntrospectionResults] - Found bean property 'schemaLocation' of type [java.lang.String]
+2016-03-24 19:41:48,349 TRACE [CachedIntrospectionResults] - Found bean property 'schemaLocations' of type [java.util.List]
+2016-03-24 19:41:48,349 TRACE [CachedIntrospectionResults] - Found bean property 'serviceBean' of type [java.lang.Object]
+2016-03-24 19:41:48,349 TRACE [CachedIntrospectionResults] - Found bean property 'serviceBeanObjects' of type [[Ljava.lang.Object;]
+2016-03-24 19:41:48,349 TRACE [CachedIntrospectionResults] - Found bean property 'serviceBeans' of type [java.util.List]
+2016-03-24 19:41:48,350 TRACE [CachedIntrospectionResults] - Found bean property 'serviceClass' of type [java.lang.Class]
+2016-03-24 19:41:48,359 TRACE [CachedIntrospectionResults] - Found bean property 'serviceFactory' of type [org.apache.cxf.jaxrs.JAXRSServiceFactoryBean]
+2016-03-24 19:41:48,359 TRACE [CachedIntrospectionResults] - Found bean property 'serviceName' of type [javax.xml.namespace.QName]
+2016-03-24 19:41:48,359 TRACE [CachedIntrospectionResults] - Found bean property 'start' of type [boolean]
+2016-03-24 19:41:48,360 TRACE [CachedIntrospectionResults] - Found bean property 'staticSubresourceResolution' of type [boolean]
+2016-03-24 19:41:48,360 TRACE [CachedIntrospectionResults] - Found bean property 'tempResourceProviders' of type [java.util.List]
+2016-03-24 19:41:48,361 TRACE [CachedIntrospectionResults] - Found bean property 'transportId' of type [java.lang.String]
+2016-03-24 19:41:48,365 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'creditService'
+2016-03-24 19:41:48,369 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'personService'
+2016-03-24 19:41:48,370 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'ipService'
+2016-03-24 19:41:48,370 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'customProvider'
+2016-03-24 19:41:48,401 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider]
+2016-03-24 19:41:48,419 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider]
+2016-03-24 19:41:48,420 TRACE [CachedIntrospectionResults] - Found bean property 'JSONPFunctionName' of type [java.lang.String]
+2016-03-24 19:41:48,420 TRACE [CachedIntrospectionResults] - Found bean property 'annotationsToUse' of type [[Lorg.codehaus.jackson.jaxrs.Annotations;]
+2016-03-24 19:41:48,420 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:48,421 TRACE [CachedIntrospectionResults] - Found bean property 'mapper' of type [org.codehaus.jackson.map.ObjectMapper]
+2016-03-24 19:41:48,422 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'customProvider'
+2016-03-24 19:41:48,423 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'cxf'
+2016-03-24 19:41:48,689 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.binding.soap.SoapBindingFactory.
+2016-03-24 19:41:48,692 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.binding.xml.XMLBindingFactory.
+2016-03-24 19:41:48,697 DEBUG [DefaultListableBeanFactory] - Invoking init method  'create' on bean with name 'cxfServices'
+2016-03-24 19:41:48,707 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.service.factory.FactoryBeanListenerManager.
+2016-03-24 19:41:48,785 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.binding.soap.SoapTransportFactory.
+2016-03-24 19:41:48,795 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.transport.http.HTTPTransportFactory.
+2016-03-24 19:41:49,238 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}CreditService.http-destination' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:49,240 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}CreditService.http-destination - no injection will be performed.
+2016-03-24 19:41:49,241 INFO  [ServerImpl] - Setting the server's publish address to be /
+2016-03-24 19:41:49,246 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.endpoint.ServerLifeCycleManagerImpl.
+2016-03-24 19:41:49,376 DEBUG [ServerImpl] - Server is starting.
+2016-03-24 19:41:49,381 DEBUG [ServletDestination] - registering incoming observer: org.apache.cxf.transport.ChainInitiationObserver@3bec2275
+2016-03-24 19:41:49,382 DEBUG [ServerImpl] - register the server to serverRegistry 
+2016-03-24 19:41:49,382 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'cxfServices'
+2016-03-24 19:41:49,383 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'ipSOAPService'
+2016-03-24 19:41:49,383 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'ipSOAPService'
+2016-03-24 19:41:49,383 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'ipService'
+2016-03-24 19:41:49,384 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'cxf'
+2016-03-24 19:41:49,470 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'ipSOAPService' to allow for resolving potential circular references
+2016-03-24 19:41:49,471 TRACE [CachedIntrospectionResults] - Getting BeanInfo for class [org.apache.cxf.jaxws22.spring.JAXWS22SpringEndpointImpl]
+2016-03-24 19:41:49,509 TRACE [CachedIntrospectionResults] - Caching PropertyDescriptors for class [org.apache.cxf.jaxws22.spring.JAXWS22SpringEndpointImpl]
+2016-03-24 19:41:49,512 TRACE [CachedIntrospectionResults] - Found bean property 'address' of type [java.lang.String]
+2016-03-24 19:41:49,513 TRACE [CachedIntrospectionResults] - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+2016-03-24 19:41:49,513 TRACE [CachedIntrospectionResults] - Found bean property 'beanName' of type [java.lang.String]
+2016-03-24 19:41:49,513 TRACE [CachedIntrospectionResults] - Found bean property 'binding' of type [javax.xml.ws.Binding]
+2016-03-24 19:41:49,514 TRACE [CachedIntrospectionResults] - Found bean property 'bindingConfig' of type [org.apache.cxf.binding.BindingConfiguration]
+2016-03-24 19:41:49,514 TRACE [CachedIntrospectionResults] - Found bean property 'bindingUri' of type [java.lang.String]
+2016-03-24 19:41:49,515 TRACE [CachedIntrospectionResults] - Found bean property 'bus' of type [org.apache.cxf.Bus]
+2016-03-24 19:41:49,515 TRACE [CachedIntrospectionResults] - Found bean property 'checkBlockConstruct' of type [java.lang.Boolean]
+2016-03-24 19:41:49,515 TRACE [CachedIntrospectionResults] - Found bean property 'class' of type [java.lang.Class]
+2016-03-24 19:41:49,516 TRACE [CachedIntrospectionResults] - Found bean property 'dataBinding' of type [org.apache.cxf.databinding.DataBinding]
+2016-03-24 19:41:49,516 TRACE [CachedIntrospectionResults] - Found bean property 'endpointContext' of type [javax.xml.ws.EndpointContext]
+2016-03-24 19:41:49,516 TRACE [CachedIntrospectionResults] - Found bean property 'endpointName' of type [javax.xml.namespace.QName]
+2016-03-24 19:41:49,516 TRACE [CachedIntrospectionResults] - Found bean property 'executor' of type [java.util.concurrent.Executor]
+2016-03-24 19:41:49,516 TRACE [CachedIntrospectionResults] - Found bean property 'features' of type [java.util.List]
+2016-03-24 19:41:49,517 TRACE [CachedIntrospectionResults] - Found bean property 'handlers' of type [java.util.List]
+2016-03-24 19:41:49,518 TRACE [CachedIntrospectionResults] - Found bean property 'implementor' of type [java.lang.Object]
+2016-03-24 19:41:49,518 TRACE [CachedIntrospectionResults] - Found bean property 'implementorClass' of type [java.lang.Class]
+2016-03-24 19:41:49,518 TRACE [CachedIntrospectionResults] - Found bean property 'inFaultInterceptors' of type [java.util.List]
+2016-03-24 19:41:49,519 TRACE [CachedIntrospectionResults] - Found bean property 'inInterceptors' of type [java.util.List]
+2016-03-24 19:41:49,519 TRACE [CachedIntrospectionResults] - Found bean property 'invoker' of type [org.apache.cxf.service.invoker.Invoker]
+2016-03-24 19:41:49,519 TRACE [CachedIntrospectionResults] - Found bean property 'metadata' of type [java.util.List]
+2016-03-24 19:41:49,519 TRACE [CachedIntrospectionResults] - Found bean property 'outFaultInterceptors' of type [java.util.List]
+2016-03-24 19:41:49,519 TRACE [CachedIntrospectionResults] - Found bean property 'outInterceptors' of type [java.util.List]
+2016-03-24 19:41:49,519 TRACE [CachedIntrospectionResults] - Found bean property 'properties' of type [java.util.Map]
+2016-03-24 19:41:49,520 TRACE [CachedIntrospectionResults] - Found bean property 'published' of type [boolean]
+2016-03-24 19:41:49,520 TRACE [CachedIntrospectionResults] - Found bean property 'publishedEndpointUrl' of type [java.lang.String]
+2016-03-24 19:41:49,521 TRACE [CachedIntrospectionResults] - Found bean property 'schemaLocations' of type [java.util.List]
+2016-03-24 19:41:49,521 TRACE [CachedIntrospectionResults] - Found bean property 'server' of type [org.apache.cxf.endpoint.ServerImpl]
+2016-03-24 19:41:49,522 TRACE [CachedIntrospectionResults] - Found bean property 'serverFactory' of type [org.apache.cxf.jaxws.JaxWsServerFactoryBean]
+2016-03-24 19:41:49,522 TRACE [CachedIntrospectionResults] - Found bean property 'service' of type [org.apache.cxf.service.Service]
+2016-03-24 19:41:49,522 TRACE [CachedIntrospectionResults] - Found bean property 'serviceFactory' of type [org.apache.cxf.jaxws.support.JaxWsServiceFactoryBean]
+2016-03-24 19:41:49,523 TRACE [CachedIntrospectionResults] - Found bean property 'serviceName' of type [javax.xml.namespace.QName]
+2016-03-24 19:41:49,523 TRACE [CachedIntrospectionResults] - Found bean property 'transportId' of type [java.lang.String]
+2016-03-24 19:41:49,523 TRACE [CachedIntrospectionResults] - Found bean property 'wsdlLocation' of type [java.lang.String]
+2016-03-24 19:41:49,525 DEBUG [DefaultListableBeanFactory] - Invoking init method  'publish' on bean with name 'ipSOAPService'
+2016-03-24 19:41:49,536 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}IPDetailsServicePort.jaxws-endpoint' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:49,537 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}IPDetailsServicePort.jaxws-endpoint - no injection will be performed.
+2016-03-24 19:41:49,538 TRACE [DefaultListableBeanFactory] - No bean named 'org.apache.cxf.jaxws.JaxWsServerFactoryBean' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:49,538 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id org.apache.cxf.jaxws.JaxWsServerFactoryBean - no injection will be performed.
+2016-03-24 19:41:49,568 INFO  [ReflectionServiceFactoryBean] - Creating Service {http://service.test.com/}IPDetailsServiceService from class com.test.service.IIPDetailsSoapService
+2016-03-24 19:41:49,966 DEBUG [JAXBDataBinding] - Created JAXBContext "jar:file:/C:/Users/Veeru/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.4-1/jaxb-impl-2.2.4-1.jar!/com/sun/xml/bind/v2/runtime/JAXBContextImpl.class Build-Id: 2.2.4
+Classes known to this context:
+  [B
+  boolean
+  byte
+  char
+  com.sun.xml.bind.api.CompositeStructure
+  com.test.service.jaxws_asm.GetIPDetails
+  com.test.service.jaxws_asm.GetIPDetailsResponse
+  double
+  float
+  generated.Response
+  int
+  java.awt.Image
+  java.io.File
+  java.lang.Boolean
+  java.lang.Byte
+  java.lang.Character
+  java.lang.Class
+  java.lang.Double
+  java.lang.Float
+  java.lang.Integer
+  java.lang.Long
+  java.lang.Object
+  java.lang.Short
+  java.lang.String
+  java.lang.Void
+  java.math.BigDecimal
+  java.math.BigInteger
+  java.net.URI
+  java.net.URL
+  java.util.Calendar
+  java.util.Date
+  java.util.GregorianCalendar
+  java.util.UUID
+  javax.activation.DataHandler
+  javax.xml.bind.JAXBElement
+  javax.xml.datatype.Duration
+  javax.xml.datatype.XMLGregorianCalendar
+  javax.xml.namespace.QName
+  javax.xml.transform.Source
+  long
+  short
+  void
+" with classes [class com.test.service.jaxws_asm.GetIPDetails, class com.test.service.jaxws_asm.GetIPDetailsResponse, class generated.Response, class generated.ObjectFactory].
+2016-03-24 19:41:50,585 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.binding.xml.wsdl11.XMLWSDLExtensionLoader.
+2016-03-24 19:41:50,607 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.ws.addressing.AddressingWSDLExtensionLoader.
+2016-03-24 19:41:50,621 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.transport.http.HTTPWSDLExtensionLoader.
+2016-03-24 19:41:50,624 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.wsdl11.WSDLManagerImpl.
+2016-03-24 19:41:50,767 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}IPDetailsServicePort.http-destination' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,767 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}IPDetailsServicePort.http-destination - no injection will be performed.
+2016-03-24 19:41:50,768 INFO  [ServerImpl] - Setting the server's publish address to be /ipDetailService
+2016-03-24 19:41:50,796 DEBUG [AnnotationHandlerChainBuilder] - building handler chain
+2016-03-24 19:41:50,797 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on com.test.service.IPDetailsService
+2016-03-24 19:41:50,797 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on com.test.service.IIPDetailsService
+2016-03-24 19:41:50,798 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on com.test.service.IIPDetailsSoapService
+2016-03-24 19:41:50,798 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on java.lang.Object
+2016-03-24 19:41:50,798 DEBUG [AnnotationHandlerChainBuilder] - no HandlerChain annotation on class com.test.service.IPDetailsService
+2016-03-24 19:41:50,799 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}IPDetailsServiceService' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,799 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}IPDetailsServiceService - no injection will be performed.
+2016-03-24 19:41:50,800 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}IPDetailsServicePort.endpoint' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,800 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}IPDetailsServicePort.endpoint - no injection will be performed.
+2016-03-24 19:41:50,801 DEBUG [ServerImpl] - Server is starting.
+2016-03-24 19:41:50,801 DEBUG [ServletDestination] - registering incoming observer: org.apache.cxf.transport.ChainInitiationObserver@5b9396d3
+2016-03-24 19:41:50,801 DEBUG [ServerImpl] - register the server to serverRegistry 
+2016-03-24 19:41:50,802 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'ipSOAPService'
+2016-03-24 19:41:50,802 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'creditSoapService'
+2016-03-24 19:41:50,802 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'creditSoapService'
+2016-03-24 19:41:50,803 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'creditService'
+2016-03-24 19:41:50,803 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'cxf'
+2016-03-24 19:41:50,803 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'creditSoapService' to allow for resolving potential circular references
+2016-03-24 19:41:50,804 DEBUG [DefaultListableBeanFactory] - Invoking init method  'publish' on bean with name 'creditSoapService'
+2016-03-24 19:41:50,804 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}CreditServicePort.jaxws-endpoint' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,805 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}CreditServicePort.jaxws-endpoint - no injection will be performed.
+2016-03-24 19:41:50,805 TRACE [DefaultListableBeanFactory] - No bean named 'org.apache.cxf.jaxws.JaxWsServerFactoryBean' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,806 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id org.apache.cxf.jaxws.JaxWsServerFactoryBean - no injection will be performed.
+2016-03-24 19:41:50,807 INFO  [ReflectionServiceFactoryBean] - Creating Service {http://service.test.com/}CreditServiceService from class com.test.service.ICreditSOAPService
+2016-03-24 19:41:50,947 DEBUG [JAXBDataBinding] - Created JAXBContext "jar:file:/C:/Users/Veeru/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.4-1/jaxb-impl-2.2.4-1.jar!/com/sun/xml/bind/v2/runtime/JAXBContextImpl.class Build-Id: 2.2.4
+Classes known to this context:
+  [B
+  boolean
+  byte
+  char
+  com.sun.xml.bind.api.CompositeStructure
+  com.test.service.CreditAccount
+  com.test.service.CreditRequest
+  com.test.service.CreditResponse
+  com.test.service.ErrorResponse
+  com.test.service.StudentRequest
+  com.test.service.StudentResponse
+  com.test.service.jaxws_asm.GetCreditReport
+  com.test.service.jaxws_asm.GetCreditReportResponse
+  double
+  float
+  int
+  java.awt.Image
+  java.io.File
+  java.lang.Boolean
+  java.lang.Byte
+  java.lang.Character
+  java.lang.Class
+  java.lang.Double
+  java.lang.Float
+  java.lang.Integer
+  java.lang.Long
+  java.lang.Object
+  java.lang.Short
+  java.lang.String
+  java.lang.Void
+  java.math.BigDecimal
+  java.math.BigInteger
+  java.net.URI
+  java.net.URL
+  java.util.Calendar
+  java.util.Date
+  java.util.GregorianCalendar
+  java.util.UUID
+  javax.activation.DataHandler
+  javax.xml.bind.JAXBElement
+  javax.xml.datatype.Duration
+  javax.xml.datatype.XMLGregorianCalendar
+  javax.xml.namespace.QName
+  javax.xml.transform.Source
+  long
+  short
+  void
+" with classes [class com.test.service.jaxws_asm.GetCreditReport, class com.test.service.CreditRequest, class com.test.service.jaxws_asm.GetCreditReportResponse, class com.test.service.CreditResponse, class com.test.service.CreditAccount, class com.test.service.ObjectFactory].
+2016-03-24 19:41:50,972 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}CreditServicePort.http-destination' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,973 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}CreditServicePort.http-destination - no injection will be performed.
+2016-03-24 19:41:50,973 INFO  [ServerImpl] - Setting the server's publish address to be /creditSoapService
+2016-03-24 19:41:50,975 DEBUG [AnnotationHandlerChainBuilder] - building handler chain
+2016-03-24 19:41:50,976 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on com.test.service.CreditService
+2016-03-24 19:41:50,977 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on com.test.service.ICreditService
+2016-03-24 19:41:50,978 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on com.test.service.ICreditSOAPService
+2016-03-24 19:41:50,978 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on java.lang.Object
+2016-03-24 19:41:50,979 DEBUG [AnnotationHandlerChainBuilder] - no HandlerChain annotation on class com.test.service.CreditService
+2016-03-24 19:41:50,979 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}CreditServiceService' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,979 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}CreditServiceService - no injection will be performed.
+2016-03-24 19:41:50,980 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}CreditServicePort.endpoint' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,980 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}CreditServicePort.endpoint - no injection will be performed.
+2016-03-24 19:41:50,981 DEBUG [ServerImpl] - Server is starting.
+2016-03-24 19:41:50,982 DEBUG [ServletDestination] - registering incoming observer: org.apache.cxf.transport.ChainInitiationObserver@62dbe64e
+2016-03-24 19:41:50,982 DEBUG [ServerImpl] - register the server to serverRegistry 
+2016-03-24 19:41:50,983 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'creditSoapService'
+2016-03-24 19:41:50,983 DEBUG [DefaultListableBeanFactory] - Creating shared instance of singleton bean 'studentSoapService'
+2016-03-24 19:41:50,983 DEBUG [DefaultListableBeanFactory] - Creating instance of bean 'studentSoapService'
+2016-03-24 19:41:50,984 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'studentService'
+2016-03-24 19:41:50,984 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'cxf'
+2016-03-24 19:41:50,985 DEBUG [DefaultListableBeanFactory] - Eagerly caching bean 'studentSoapService' to allow for resolving potential circular references
+2016-03-24 19:41:50,985 DEBUG [DefaultListableBeanFactory] - Invoking init method  'publish' on bean with name 'studentSoapService'
+2016-03-24 19:41:50,986 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}StudentServicePort.jaxws-endpoint' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,986 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}StudentServicePort.jaxws-endpoint - no injection will be performed.
+2016-03-24 19:41:50,987 TRACE [DefaultListableBeanFactory] - No bean named 'org.apache.cxf.jaxws.JaxWsServerFactoryBean' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:50,987 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id org.apache.cxf.jaxws.JaxWsServerFactoryBean - no injection will be performed.
+2016-03-24 19:41:50,988 INFO  [ReflectionServiceFactoryBean] - Creating Service {http://service.test.com/}StudentServiceService from class com.test.service.IStudentService
+2016-03-24 19:41:51,063 DEBUG [JAXBDataBinding] - Created JAXBContext "jar:file:/C:/Users/Veeru/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.4-1/jaxb-impl-2.2.4-1.jar!/com/sun/xml/bind/v2/runtime/JAXBContextImpl.class Build-Id: 2.2.4
+Classes known to this context:
+  [B
+  boolean
+  byte
+  char
+  com.sun.xml.bind.api.CompositeStructure
+  com.test.service.CreditAccount
+  com.test.service.CreditRequest
+  com.test.service.CreditResponse
+  com.test.service.ErrorResponse
+  com.test.service.StudentRequest
+  com.test.service.StudentResponse
+  com.test.service.jaxws_asm.GetStudent
+  com.test.service.jaxws_asm.GetStudentResponse
+  double
+  float
+  int
+  java.awt.Image
+  java.io.File
+  java.lang.Boolean
+  java.lang.Byte
+  java.lang.Character
+  java.lang.Class
+  java.lang.Double
+  java.lang.Float
+  java.lang.Integer
+  java.lang.Long
+  java.lang.Object
+  java.lang.Short
+  java.lang.String
+  java.lang.Void
+  java.math.BigDecimal
+  java.math.BigInteger
+  java.net.URI
+  java.net.URL
+  java.util.Calendar
+  java.util.Date
+  java.util.GregorianCalendar
+  java.util.UUID
+  javax.activation.DataHandler
+  javax.xml.bind.JAXBElement
+  javax.xml.datatype.Duration
+  javax.xml.datatype.XMLGregorianCalendar
+  javax.xml.namespace.QName
+  javax.xml.transform.Source
+  long
+  short
+  void
+" with classes [class com.test.service.jaxws_asm.GetStudent, class com.test.service.StudentRequest, class com.test.service.jaxws_asm.GetStudentResponse, class com.test.service.StudentResponse, class com.test.service.ObjectFactory].
+2016-03-24 19:41:51,129 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}StudentServicePort.http-destination' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:51,129 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}StudentServicePort.http-destination - no injection will be performed.
+2016-03-24 19:41:51,130 INFO  [ServerImpl] - Setting the server's publish address to be /studentSoapService
+2016-03-24 19:41:51,131 DEBUG [AnnotationHandlerChainBuilder] - building handler chain
+2016-03-24 19:41:51,132 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on com.test.service.StudentService
+2016-03-24 19:41:51,132 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on com.test.service.IStudentService
+2016-03-24 19:41:51,132 DEBUG [AnnotationHandlerChainBuilder] - Checking for HandlerChain annotation on java.lang.Object
+2016-03-24 19:41:51,132 DEBUG [AnnotationHandlerChainBuilder] - no HandlerChain annotation on class com.test.service.StudentService
+2016-03-24 19:41:51,133 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}StudentServiceService' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:51,133 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}StudentServiceService - no injection will be performed.
+2016-03-24 19:41:51,133 TRACE [DefaultListableBeanFactory] - No bean named '{http://service.test.com/}StudentServicePort.endpoint' found in org.springframework.beans.factory.support.DefaultListableBeanFactory@30af5b6b: defining beans [cxf,org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor,org.apache.cxf.bus.spring.Jsr250BeanPostProcessor,org.apache.cxf.bus.spring.BusExtensionPostProcessor,personDAO,personRowMapper,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,propertyPlaceholderConfigurer,mySQLDataSource,jdbcTemplate,restTemplate,xmlConverter,jaxbMarshaller,jsonConverter,creditService,personService,ipService,studentService,requestInterceptor,exceptionHanlder,cxfServices,ipSOAPService,creditSoapService,studentSoapService]; root of factory hierarchy
+2016-03-24 19:41:51,134 DEBUG [ConfigurerImpl] - Could not find a definition for bean with id {http://service.test.com/}StudentServicePort.endpoint - no injection will be performed.
+2016-03-24 19:41:51,134 DEBUG [ServerImpl] - Server is starting.
+2016-03-24 19:41:51,139 DEBUG [ServletDestination] - registering incoming observer: org.apache.cxf.transport.ChainInitiationObserver@68b9834c
+2016-03-24 19:41:51,140 DEBUG [ServerImpl] - register the server to serverRegistry 
+2016-03-24 19:41:51,140 DEBUG [DefaultListableBeanFactory] - Finished creating instance of bean 'studentSoapService'
+2016-03-24 19:41:51,143 DEBUG [XmlWebApplicationContext] - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@44cffc25]
+2016-03-24 19:41:51,144 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-03-24 19:41:51,145 TRACE [XmlWebApplicationContext] - Publishing event in Root WebApplicationContext: org.springframework.context.event.ContextRefreshedEvent[source=Root WebApplicationContext: startup date [Thu Mar 24 19:41:43 CDT 2016]; root of context hierarchy]
+2016-03-24 19:41:51,148 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'cxf'
+2016-03-24 19:41:51,149 DEBUG [ContextLoader] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2016-03-24 19:41:51,149 INFO  [ContextLoader] - Root WebApplicationContext: initialization completed in 7831 ms
+2016-03-24 19:41:51,191 DEBUG [DefaultListableBeanFactory] - Returning cached instance of singleton bean 'cxf'
+2016-03-24 19:41:57,374 DEBUG [ServletController] - Service http request on thread: Thread[486898233@qtp-13326370-0,5,main]
+2016-03-24 19:41:57,376 DEBUG [AbstractHTTPDestination] - Create a new message for processing
+2016-03-24 19:41:57,392 DEBUG [Headers] - Request Headers: {Accept=[application/xml], accept-encoding=[gzip, deflate], Accept-Language=[null], connection=[keep-alive], Content-Length=[338], content-type=[application/xml], Host=[localhost:8080], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0]}
+2016-03-24 19:41:57,418 DEBUG [ConfigurerImpl] - Could not determine bean name for instance of class org.apache.cxf.phase.PhaseManagerImpl.
+2016-03-24 19:41:57,432 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@14981b8b to phase invoke
+2016-03-24 19:41:57,432 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@736770ad to phase post-invoke
+2016-03-24 19:41:57,433 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@6d434ddc to phase pre-logical
+2016-03-24 19:41:57,433 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor@395347bc to phase unmarshal
+2016-03-24 19:41:57,438 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@733be38d to phase pre-stream
+2016-03-24 19:41:57,442 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@212c85f3 was created. Current flow:
+  pre-stream [CertConstraintsInterceptor]
+  unmarshal [JAXRSInInterceptor]
+  pre-logical [OneWayProcessorInterceptor]
+  invoke [ServiceInvokerInterceptor]
+  post-invoke [OutgoingChainInterceptor]
+
+2016-03-24 19:41:57,442 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@733be38d
+2016-03-24 19:41:57,444 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor@395347bc
+2016-03-24 19:41:57,459 DEBUG [JAXRSUtils] - Trying to select a resource class, request path : /bank/creditreport
+2016-03-24 19:41:57,461 DEBUG [JAXRSUtils] - Resource class com.test.service.CreditService may get selected, request path : com.test.service.CreditService, resource class @Path : /bank/creditreport
+2016-03-24 19:41:57,462 DEBUG [JAXRSUtils] - Resource class com.test.service.PersonService may get selected, request path : com.test.service.PersonService, resource class @Path : /bank/creditreport
+2016-03-24 19:41:57,463 DEBUG [JAXRSUtils] - Resource class com.test.service.IPDetailsService may get selected, request path : com.test.service.IPDetailsService, resource class @Path : /bank/creditreport
+2016-03-24 19:41:57,463 DEBUG [JAXRSUtils] - Resource class com.test.service.CreditService has been selected, request path : com.test.service.CreditService, resource class @Path : /bank/creditreport
+2016-03-24 19:41:57,465 DEBUG [JAXRSUtils] - Trying to select a resource operation on the resource class com.test.service.CreditService
+2016-03-24 19:41:57,468 DEBUG [JAXRSUtils] - Resource operation getCreditReport may get selected
+2016-03-24 19:41:57,470 DEBUG [JAXRSUtils] - Resource operation getCreditReport on the resource class com.test.service.CreditService has been selected
+2016-03-24 19:41:57,472 DEBUG [JAXRSInInterceptor] - Request path is: /bank/creditreport
+2016-03-24 19:41:57,472 DEBUG [JAXRSInInterceptor] - Request HTTP method is: POST
+2016-03-24 19:41:57,473 DEBUG [JAXRSInInterceptor] - Request contentType is: application/xml
+2016-03-24 19:41:57,473 DEBUG [JAXRSInInterceptor] - Accept contentType is: application/xml
+2016-03-24 19:41:57,473 DEBUG [JAXRSInInterceptor] - Found operation: getCreditReport
+2016-03-24 19:41:57,858 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@6d434ddc
+2016-03-24 19:41:57,858 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@14981b8b
+2016-03-24 19:41:57,873 TRACE [AbstractInvoker] - Invoking method public com.test.service.CreditResponse com.test.service.CreditService.getCreditReport(com.test.service.CreditRequest) on object com.test.service.CreditService@450f4e8 with params [com.test.service.CreditRequest@23939dec[ssn=451-234-7890, fname=Rama, dob=12-12-1980]].
+2016-03-24 19:42:27,653 INFO  [CreditService] -  Input com.test.service.CreditRequest@23939dec[ssn=451-234-7890, fname=Rama, dob=12-12-1980]
+2016-03-24 19:42:27,660 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@736770ad
+2016-03-24 19:42:27,676 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by bus: []
+2016-03-24 19:42:27,678 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by service: []
+2016-03-24 19:42:27,678 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@40e8cd92]
+2016-03-24 19:42:27,679 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by binding: [org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@1c022050]
+2016-03-24 19:42:27,679 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@40e8cd92 to phase prepare-send
+2016-03-24 19:42:27,679 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@1c022050 to phase marshal
+2016-03-24 19:42:27,680 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@2475c81c was created. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+
+2016-03-24 19:42:27,680 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@40e8cd92
+2016-03-24 19:42:27,684 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@732f8f95 to phase prepare-send-ending
+2016-03-24 19:42:27,684 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@2475c81c was modified. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+2016-03-24 19:42:27,685 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@1c022050
+2016-03-24 19:42:27,699 DEBUG [JAXRSOutInterceptor] - Response content type is: application/xml
+2016-03-24 19:42:27,700 DEBUG [JAXRSOutInterceptor] - Response EntityProvider is: org.apache.cxf.jaxrs.provider.JAXBElementProvider
+2016-03-24 19:42:27,758 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@732f8f95
+2016-03-24 19:42:27,783 DEBUG [ServletController] - Finished servicing http request on thread: Thread[486898233@qtp-13326370-0,5,main]
+2016-03-24 19:42:38,581 DEBUG [ServletController] - Service http request on thread: Thread[486898233@qtp-13326370-0,5,main]
+2016-03-24 19:42:38,582 DEBUG [AbstractHTTPDestination] - Create a new message for processing
+2016-03-24 19:42:38,582 DEBUG [Headers] - Request Headers: {Accept=[application/xml], accept-encoding=[gzip, deflate], Accept-Language=[null], connection=[keep-alive], Content-Length=[338], content-type=[application/xml], Host=[localhost:8080], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0]}
+2016-03-24 19:42:38,583 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@733be38d to phase pre-stream
+2016-03-24 19:42:38,583 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@6f653871 was created. Current flow:
+  pre-stream [CertConstraintsInterceptor]
+  unmarshal [JAXRSInInterceptor]
+  pre-logical [OneWayProcessorInterceptor]
+  invoke [ServiceInvokerInterceptor]
+  post-invoke [OutgoingChainInterceptor]
+
+2016-03-24 19:42:38,583 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@733be38d
+2016-03-24 19:42:38,583 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor@395347bc
+2016-03-24 19:42:38,584 DEBUG [JAXRSUtils] - Trying to select a resource class, request path : /bank/creditreport
+2016-03-24 19:42:38,584 DEBUG [JAXRSUtils] - Resource class com.test.service.CreditService may get selected, request path : com.test.service.CreditService, resource class @Path : /bank/creditreport
+2016-03-24 19:42:38,585 DEBUG [JAXRSUtils] - Resource class com.test.service.PersonService may get selected, request path : com.test.service.PersonService, resource class @Path : /bank/creditreport
+2016-03-24 19:42:38,585 DEBUG [JAXRSUtils] - Resource class com.test.service.IPDetailsService may get selected, request path : com.test.service.IPDetailsService, resource class @Path : /bank/creditreport
+2016-03-24 19:42:38,585 DEBUG [JAXRSUtils] - Resource class com.test.service.CreditService has been selected, request path : com.test.service.CreditService, resource class @Path : /bank/creditreport
+2016-03-24 19:42:38,586 DEBUG [JAXRSUtils] - Trying to select a resource operation on the resource class com.test.service.CreditService
+2016-03-24 19:42:38,586 DEBUG [JAXRSUtils] - Resource operation getCreditReport may get selected
+2016-03-24 19:42:38,587 DEBUG [JAXRSUtils] - Resource operation getCreditReport on the resource class com.test.service.CreditService has been selected
+2016-03-24 19:42:38,587 DEBUG [JAXRSInInterceptor] - Request path is: /bank/creditreport
+2016-03-24 19:42:38,588 DEBUG [JAXRSInInterceptor] - Request HTTP method is: POST
+2016-03-24 19:42:38,589 DEBUG [JAXRSInInterceptor] - Request contentType is: application/xml
+2016-03-24 19:42:38,589 DEBUG [JAXRSInInterceptor] - Accept contentType is: application/xml
+2016-03-24 19:42:38,589 DEBUG [JAXRSInInterceptor] - Found operation: getCreditReport
+2016-03-24 19:42:38,598 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@6d434ddc
+2016-03-24 19:42:38,598 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@14981b8b
+2016-03-24 19:42:38,599 TRACE [AbstractInvoker] - Invoking method public com.test.service.CreditResponse com.test.service.CreditService.getCreditReport(com.test.service.CreditRequest) on object com.test.service.CreditService@450f4e8 with params [com.test.service.CreditRequest@3eb77005[ssn=451-234-7890, fname=Rama, dob=12-12-1980]].
+2016-03-24 19:42:41,357 INFO  [CreditService] -  Input com.test.service.CreditRequest@3eb77005[ssn=451-234-7890, fname=Rama, dob=12-12-1980]
+2016-03-24 19:42:41,359 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@736770ad
+2016-03-24 19:42:41,359 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by bus: []
+2016-03-24 19:42:41,360 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by service: []
+2016-03-24 19:42:41,361 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@40e8cd92]
+2016-03-24 19:42:41,362 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by binding: [org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@1c022050]
+2016-03-24 19:42:41,363 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@514f83d2 was created. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+
+2016-03-24 19:42:41,364 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@40e8cd92
+2016-03-24 19:42:41,364 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@732f8f95 to phase prepare-send-ending
+2016-03-24 19:42:41,365 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@514f83d2 was modified. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+2016-03-24 19:42:41,366 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@1c022050
+2016-03-24 19:42:41,370 DEBUG [JAXRSOutInterceptor] - Response content type is: application/xml
+2016-03-24 19:42:41,371 DEBUG [JAXRSOutInterceptor] - Response EntityProvider is: org.apache.cxf.jaxrs.provider.JAXBElementProvider
+2016-03-24 19:42:41,375 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@732f8f95
+2016-03-24 19:42:41,378 DEBUG [ServletController] - Finished servicing http request on thread: Thread[486898233@qtp-13326370-0,5,main]
+2016-03-24 19:43:28,105 DEBUG [ServletController] - Service http request on thread: Thread[486898233@qtp-13326370-0,5,main]
+2016-03-24 19:43:28,106 DEBUG [AbstractHTTPDestination] - Create a new message for processing
+2016-03-24 19:43:28,107 DEBUG [Headers] - Request Headers: {Accept=[application/json], accept-encoding=[gzip, deflate], Accept-Language=[null], connection=[keep-alive], Content-Length=[338], content-type=[application/xml], Host=[localhost:8080], User-Agent=[Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0]}
+2016-03-24 19:43:28,107 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@733be38d to phase pre-stream
+2016-03-24 19:43:28,108 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@54a87764 was created. Current flow:
+  pre-stream [CertConstraintsInterceptor]
+  unmarshal [JAXRSInInterceptor]
+  pre-logical [OneWayProcessorInterceptor]
+  invoke [ServiceInvokerInterceptor]
+  post-invoke [OutgoingChainInterceptor]
+
+2016-03-24 19:43:28,108 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@733be38d
+2016-03-24 19:43:28,108 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor@395347bc
+2016-03-24 19:43:28,109 DEBUG [JAXRSUtils] - Trying to select a resource class, request path : /bank/creditreport
+2016-03-24 19:43:28,110 DEBUG [JAXRSUtils] - Resource class com.test.service.CreditService may get selected, request path : com.test.service.CreditService, resource class @Path : /bank/creditreport
+2016-03-24 19:43:28,110 DEBUG [JAXRSUtils] - Resource class com.test.service.PersonService may get selected, request path : com.test.service.PersonService, resource class @Path : /bank/creditreport
+2016-03-24 19:43:28,117 DEBUG [JAXRSUtils] - Resource class com.test.service.IPDetailsService may get selected, request path : com.test.service.IPDetailsService, resource class @Path : /bank/creditreport
+2016-03-24 19:43:28,118 DEBUG [JAXRSUtils] - Resource class com.test.service.CreditService has been selected, request path : com.test.service.CreditService, resource class @Path : /bank/creditreport
+2016-03-24 19:43:28,119 DEBUG [JAXRSUtils] - Trying to select a resource operation on the resource class com.test.service.CreditService
+2016-03-24 19:43:28,122 DEBUG [JAXRSUtils] - Resource operation getCreditReport may get selected
+2016-03-24 19:43:28,122 DEBUG [JAXRSUtils] - Resource operation getCreditReport on the resource class com.test.service.CreditService has been selected
+2016-03-24 19:43:28,123 DEBUG [JAXRSInInterceptor] - Request path is: /bank/creditreport
+2016-03-24 19:43:28,123 DEBUG [JAXRSInInterceptor] - Request HTTP method is: POST
+2016-03-24 19:43:28,124 DEBUG [JAXRSInInterceptor] - Request contentType is: application/xml
+2016-03-24 19:43:28,124 DEBUG [JAXRSInInterceptor] - Accept contentType is: application/json
+2016-03-24 19:43:28,125 DEBUG [JAXRSInInterceptor] - Found operation: getCreditReport
+2016-03-24 19:43:28,127 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@6d434ddc
+2016-03-24 19:43:28,128 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@14981b8b
+2016-03-24 19:43:28,129 TRACE [AbstractInvoker] - Invoking method public com.test.service.CreditResponse com.test.service.CreditService.getCreditReport(com.test.service.CreditRequest) on object com.test.service.CreditService@450f4e8 with params [com.test.service.CreditRequest@d518d55[ssn=451-234-7890, fname=Rama, dob=12-12-1980]].
+2016-03-24 19:43:31,444 INFO  [CreditService] -  Input com.test.service.CreditRequest@d518d55[ssn=451-234-7890, fname=Rama, dob=12-12-1980]
+2016-03-24 19:43:31,445 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@736770ad
+2016-03-24 19:43:31,445 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by bus: []
+2016-03-24 19:43:31,445 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by service: []
+2016-03-24 19:43:31,446 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@40e8cd92]
+2016-03-24 19:43:31,446 DEBUG [OutgoingChainInterceptor] - Interceptors contributed by binding: [org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@1c022050]
+2016-03-24 19:43:31,447 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@1e23150 was created. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+
+2016-03-24 19:43:31,447 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@40e8cd92
+2016-03-24 19:43:31,448 DEBUG [PhaseInterceptorChain] - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@732f8f95 to phase prepare-send-ending
+2016-03-24 19:43:31,448 DEBUG [PhaseInterceptorChain] - Chain org.apache.cxf.phase.PhaseInterceptorChain@1e23150 was modified. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+2016-03-24 19:43:31,448 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@1c022050
+2016-03-24 19:43:31,452 DEBUG [JAXRSOutInterceptor] - Response content type is: application/json
+2016-03-24 19:43:31,452 DEBUG [JAXRSOutInterceptor] - Response EntityProvider is: org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider
+2016-03-24 19:43:31,684 DEBUG [PhaseInterceptorChain] - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@732f8f95
+2016-03-24 19:43:31,686 DEBUG [ServletController] - Finished servicing http request on thread: Thread[486898233@qtp-13326370-0,5,main]
